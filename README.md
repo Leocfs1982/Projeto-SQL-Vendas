@@ -1,6 +1,3 @@
-![Capa do Projeto de Análise de Vendas com SQL](capa-projeto-sql.png)
-
-
 # Projeto SQL — Análise de Vendas
 
 ## Sobre o projeto
