@@ -1,37 +1,28 @@
-# Projeto SQL — Análise de Vendas
+# Projeto de Análise de Vendas com SQL
 
-## Sobre o projeto
-Projeto iniciante desenvolvido para praticar SQL utilizando um banco de dados SQLite com informações de produtos, quantidades vendidas e preços unitários.
-
-## Objetivos
-- Consultar dados de vendas.
-- Filtrar registros com `WHERE`.
-- Calcular faturamento com `SUM()`.
-- Contar registros com `COUNT()`.
-- Identificar produtos diferentes com `DISTINCT`.
-- Agrupar e ordenar dados com `GROUP BY` e `ORDER BY`.
-- Identificar o produto com maior faturamento usando `ORDER BY` e `LIMIT`.
-- Identificar o produto com menor faturamento usando ordenação crescente.
+## Objetivo
+Analisar dados de vendas utilizando SQL para identificar o faturamento total, o desempenho por produto e os produtos com maior e menor faturamento.
 
 ## Ferramentas utilizadas
-- Visual Studio Code
+- SQL
 - SQLite
-- Extensão SQLite para VS Code
+- Visual Studio Code
 
-## Estrutura do projeto
-- `vendas.db`: banco de dados SQLite.
-- `consultas_vendas.sql`: consultas SQL desenvolvidas durante o estudo.
+## Análises realizadas
+- Cálculo do faturamento total e da quantidade de unidades vendidas.
+- Faturamento por produto, ordenado do maior para o menor.
+- Comparação do faturamento por produto com o total geral.
+- Identificação dos produtos com maior e menor faturamento.
 
-## Indicadores analisados
-- 5 produtos cadastrados.
-- 24 unidades vendidas.
-- Faturamento total de R$ 3.880,00.
+## Principais resultados
+- **Faturamento total:** R$ 3.880,00.
+- **Quantidade vendida:** 24 unidades.
+- **Maior faturamento:** Monitor — R$ 2.250,00.
+- **Menor faturamento:** Mouse — R$ 350,00.
+
+## Arquivos do projeto
+- `analise_vendas_final.sql`: consultas finais organizadas para análise.
+- `consultas_vendas.sql`: arquivo de estudos e práticas SQL.
 
 ## Aprendizados
-Prática de consultas SQL, filtros, cálculos, agregações e organização de um projeto de análise de dados.
-Também pratiquei a identificação dos produtos com maior e menor faturamento, utilizando ordenação e limitação dos resultados.
-
-## Próximos passos
-- Criar novas consultas para responder perguntas de negócio.
-- Aprender a combinar tabelas com `JOIN`.
-- Desenvolver análises mais completas para o portfólio.
+Prática de consultas SQL, funções de agregação, agrupamento, ordenação e análise de resultados para apoiar decisões comerciais.
